@@ -32,7 +32,7 @@ Because you create the map only for these 1,000 orders and delete it when the jo
 
 # Java Concurrency: `parallelStream()` vs. `CompletableFuture`
 
-Both use multiple threads, which is how they do multiple things at the same time—they just use those threads differently
+**Both use multiple threads and Both add more threads to solve these problems**
 
 Choose the right tool based on whether your bottleneck is **CPU power** or **waiting time**.
 
